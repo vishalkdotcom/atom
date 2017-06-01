@@ -29,7 +29,7 @@ module.exports = function (packagedAppPath) {
   }
 
   function signFile (filePath) {
-    const signCommand = path.resolve(__dirname, '..', 'node_modules', 'electron-winstaller', 'vendor', 'signtool.exe')
+    const signCommand = path.resolve(__dirname, '..', 'node_modules', '@paulcbetts', 'electron-winstaller', 'vendor', 'signtool.exe')
     const args = [ // Changing any of these should also be done in create-windows-installer.js
       'sign',
       `/f ${certPath}`, // Signing cert file
