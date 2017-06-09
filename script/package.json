@@ -2,7 +2,6 @@
   "name": "atom-build-scripts",
   "description": "Atom build scripts",
   "dependencies": {
-    "@paulcbetts/electron-winstaller": "^2.5.2-test.4",
     "async": "2.0.1",
     "babel-core": "5.8.38",
     "coffeelint": "1.15.7",
@@ -13,6 +12,7 @@
     "electron-link": "0.1.0",
     "electron-mksnapshot": "~1.6",
     "electron-packager": "7.3.0",
+    "electron-winstaller": "^2.6.2",
     "fs-extra": "0.30.0",
     "glob": "7.0.3",
     "joanna": "0.0.8",

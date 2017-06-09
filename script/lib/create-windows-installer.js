@@ -1,7 +1,7 @@
 'use strict'
 
 const downloadFileFromGithub = require('./download-file-from-github')
-const electronInstaller = require('@paulcbetts/electron-winstaller')
+const electronInstaller = require('electron-winstaller')
 const fs = require('fs-extra')
 const glob = require('glob')
 const os = require('os')
